@@ -62,33 +62,33 @@ Two frontends are provided:
 │         └───────────┬───────────────┘                │
 │                     ▼                                │
 │  ┌──────────────────────────────────────────────┐    │
-│  │              engine.py                        │    │
-│  │  SimulationEngine · Calendar · Weather        │    │
-│  │  EventEngine · News · Timeline · Save/Load    │    │
+│  │              engine.py                       │    │
+│  │  SimulationEngine · Calendar · Weather       │    │
+│  │  EventEngine · News · Timeline · Save/Load   │    │
 │  └───────┬────────────────────┬─────────────────┘    │
 │          │                    │                      │
 │          ▼                    ▼                      │
-│  ┌──────────────┐   ┌──────────────────────────┐    │
-│  │  entities.py │   │      systems.py          │    │
-│  │  Person      │   │  Reputation · Finance    │    │
-│  │  Population  │   │  Education · Company     │    │
-│  │  Household   │   │  Crime · Law · Stock     │    │
-│  │  Genetics    │   │  Social · Simulation     │    │
-│  │  Personality │   │  Systems (orchestrator)   │    │
-│  └──────┬───────┘   └───────────┬──────────────┘    │
+│  ┌──────────────┐   ┌──────────────────────────┐     │
+│  │  entities.py │   │      systems.py          │     │
+│  │  Person      │   │  Reputation · Finance    │     │
+│  │  Population  │   │  Education · Company     │     │
+│  │  Household   │   │  Crime · Law · Stock     │     │
+│  │  Genetics    │   │  Social · Simulation     │     │
+│  │  Personality │   │  Systems (orchestrator)  │     │
+│  └──────┬───────┘   └───────────┬──────────────┘     │
 │         │                       │                    │
 │         └───────────┬───────────┘                    │
 │                     ▼                                │
 │  ┌──────────────────────────────────────────────┐    │
-│  │              world.py                         │    │
-│  │  WorldMap · Tile · District · Building        │    │
-│  │  Company · TransitLine · Housing · Jobs       │    │
-│  │  Economy · Routing · Spatial Indexes          │    │
+│  │              world.py                        │    │
+│  │  WorldMap · Tile · District · Building       │    │
+│  │  Company · TransitLine · Housing · Jobs      │    │
+│  │  Economy · Routing · Spatial Indexes         │    │
 │  └──────────────────────────────────────────────┘    │
 │                                                      │
 │  ┌──────────────────────────────────────────────┐    │
-│  │              dump.py                          │    │
-│  │  Save file analysis & data extraction utility │    │
+│  │              dump.py                         │    │
+│  │  Save file analysis & data extraction utility│    │
 │  └──────────────────────────────────────────────┘    │
 └──────────────────────────────────────────────────────┘
 ```
